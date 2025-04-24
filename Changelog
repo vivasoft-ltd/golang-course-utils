@@ -1,0 +1,22 @@
+# Changelog
+
+## [v0.0.1] - 2025-04-24
+
+### Added
+
+* Logger package with standard logger and custom logger
+* Custom logger with file output
+* Standard logger with json formatter
+* Error, Info, Warn, Debug, Fatal, Panic log levels
+* WithFields method for custom log fields
+* SetLogLevel and SetLogFormatter methods
+* processLog method for error handling
+
+### Changed
+
+* Updated logger package to use logrus
+* Changed log levels to use logrus levels
+
+### Removed
+
+* Removed old logger package
