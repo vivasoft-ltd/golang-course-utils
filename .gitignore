@@ -1,0 +1,6 @@
+.vscode
+.idea
+vendor
+log.*
+*.log
+.DS_Store
