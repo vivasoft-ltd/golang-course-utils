@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.0.2] - 2025-04-25
+
+### Added
+
+* APM package with tracing and metrics
+* Errutil package with errors and error codes
+* Method package with reflect methods
+
 ## [v0.0.1] - 2025-04-24
 
 ### Added
