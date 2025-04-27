@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/vivasoft-golang-course/utils/errutil"
-	"github.com/vivasoft-golang-course/utils/logger"
-	utils "github.com/vivasoft-golang-course/utils/methods"
+	"github.com/vivasoft-ltd/golang-course-utils/errutil"
+	"github.com/vivasoft-ltd/golang-course-utils/logger"
+	utils "github.com/vivasoft-ltd/golang-course-utils/methods"
 )
 
 type Redis struct {

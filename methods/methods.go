@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/jftuga/geodist"
-	"github.com/vivasoft-golang-course/utils/logger"
+	"github.com/vivasoft-ltd/golang-course-utils/logger"
 )
 
 func MapToStruct(input map[string]interface{}, output interface{}) error {
