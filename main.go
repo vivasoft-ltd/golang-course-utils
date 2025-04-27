@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vivasoft-golang-course/utils/logger"
+import "github.com/vivasoft-ltd/golang-course-utils/logger"
 
 func main() {
 	logger.SetFileLogger("app.log")
