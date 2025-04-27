@@ -11,6 +11,7 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 func NewFileLoggerClient(filePath string) *CustomLogger {
@@ -18,7 +19,7 @@ func NewFileLoggerClient(filePath string) *CustomLogger {
 	if err != nil {
 		return nil
 	}
-	logger := logrus.New()
+	logger = log.New()
 	multiWriter := io.MultiWriter(os.Stdout, logFile)
 	logger.SetOutput(multiWriter)
 	return &CustomLogger{
