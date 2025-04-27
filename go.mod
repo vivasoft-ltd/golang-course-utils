@@ -1,4 +1,4 @@
-module github.com/vivasoft-golang-course/utils
+module github.com/vivasoft-ltd/golang-course-utils
 
 go 1.24.2
 
